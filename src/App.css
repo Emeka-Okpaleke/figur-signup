@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Hellix';
+  src: url('./fonts/Hellix-Regular.woff') format('woff'),
+       url('./fonts/Hellix-Bold.woff') format('woff'),
+       url('./fonts/Inter-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url(./fonts/Hellix-Bold.woff);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url(./fonts/Hellix-SemiBold.woff);
+  font-weight: semiBold;
+  font-style: normal;
+}
+
+body{
+  font-family: "Hellix", sans-serif;
+}
+
+/* @media (max-width: 800px) {
+  .blueSection {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .blueSection {
+    display: block;
+  }
+} */
+
