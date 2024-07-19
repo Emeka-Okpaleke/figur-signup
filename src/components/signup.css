@@ -50,7 +50,7 @@ form input{
 }
 
 form .email, .loginSubmit{
-    padding-right: 16px;
+    /* padding-right: 16px; */
     /* padding-left: 16px; */
 }
 
