@@ -54,6 +54,11 @@ form .email, .loginSubmit{
     /* padding-left: 16px; */
 }
 
+.text-input{
+    display: flex;
+    justify-content: center;
+  }
+
 button{
     padding: 10px;
     border-radius: 5px;

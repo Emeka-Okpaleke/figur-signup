@@ -10,12 +10,14 @@ const Signup = () => {
                     <h2>We'll make this fast & simple</h2>
                 </div>
                 <form>
-                    <div className="email">
+                    <div className="email text-input">
                         <label htmlFor="email"></label>
                         <input type="email" id="email" placeholder="Email" required />
                     </div>
 
-                    <button className = "loginSubmit" type="submit">Continue</button>
+                    <div className="submit-div" style={{display:"flex", justifyContent: "center"}}>
+                        <button className = "loginSubmit" type="submit">Login</button>
+                    </div>
                     <div className="link">
                         <a href="/">I already have an account</a>
                     </div>
