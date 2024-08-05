@@ -1,0 +1,46 @@
+.email input{
+    position: relative;
+}
+
+.email label{
+    position: absolute;
+    padding: 10px;
+}
+
+.email label:focus +label{
+    transform: translate(5px, -22px);
+    font-size: smaller;
+    background-color: white;
+}
+
+
+/* ///////////////////////////////////////////////// */
+
+
+.text-input{
+    position: relative;
+  }
+  
+  .email span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    transition: 0.15s all ease;
+  }
+
+
+.text-input label{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    color: #032B69;
+    transition: 0.15s all ease;
+  }
+
+.text-input input:focus + label{
+    transform: translate(5px, -22px);
+    font-size: smaller;
+    background-color: white;
+  }
