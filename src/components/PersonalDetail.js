@@ -1,4 +1,5 @@
 import Button from "./button";
+import InputEmail from "./inputText";
 const PersonalDetails = ({ personalLink }) => {
     return ( 
         <div className="container step3">
@@ -23,7 +24,7 @@ const PersonalDetails = ({ personalLink }) => {
                             </div>
                         </div>
                         <div className="email text-input">
-                            <input type="text" className="inputName" required />
+                            <InputEmail/>
                             <span>Phone</span>
                         </div>
                         <div className="email text-input">
@@ -31,7 +32,7 @@ const PersonalDetails = ({ personalLink }) => {
                             <span>Password</span>
                         </div>
                         <div className="email text-input">
-                            <input type="text" required />
+                            <InputEmail/>
                             <span>Referrer's number</span>
                         </div>
                         <small>By clicking sign up, you agree to our <a href="/" style={{ font: 'semibold' }}>Terms</a> and <a href="/" style={{ font: "semibold" }}>Policies</a></small>

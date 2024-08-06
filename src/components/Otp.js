@@ -1,4 +1,5 @@
 import Button from './button';
+import InputEmail from './inputText';
 import './otp.css';
 const Otp = ({ OtpLink }) => {
     return ( 
@@ -11,12 +12,11 @@ const Otp = ({ OtpLink }) => {
                     </div>
                     <form>
                         <div className="email text-input">
-                            <input type="email" id="email" required />
+                            <InputEmail/>
                             <label style={{ whiteSpace: 'nowrap' }}>Enter Verification Code</label>
                         </div>
                         <div className="link"><a href="/">Forgot Password</a></div>
                         <div className="submit-div" style={{ display: "flex", justifyContent: "center" }}>
-                            {/* <button className="loginSubmit" type="submit" onClick={OtpLink}>Continue</button> */}
                             <Button link={OtpLink}>Continue</Button>
                         </div>
                         <div className="link">

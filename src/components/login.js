@@ -1,4 +1,5 @@
 import Button from "./button";
+import InputEmail from "./inputText";
 const Login = ({loginLink}) => {
     return ( 
         <div className="login-box">
@@ -9,7 +10,8 @@ const Login = ({loginLink}) => {
                         <form>
                             <div className="email text-input">
                                 <label htmlFor="email"></label>
-                                <input type="email" id="email" placeholder="Email" required />
+                                {/* <input type="email" id="email" placeholder="Email" required /> */}
+                                <InputEmail/>
                             </div>
                             <div className="submit-div" style={{ display: "flex", justifyContent: "center" }}>
                                 <Button link = {loginLink}>Login</Button>
