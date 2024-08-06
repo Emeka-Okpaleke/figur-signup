@@ -1,4 +1,4 @@
-import BlueHalf from "./blueHalf";
+import Button from './button';
 import './otp.css';
 const Otp = ({ OtpLink }) => {
     return ( 
@@ -16,7 +16,8 @@ const Otp = ({ OtpLink }) => {
                         </div>
                         <div className="link"><a href="/">Forgot Password</a></div>
                         <div className="submit-div" style={{ display: "flex", justifyContent: "center" }}>
-                            <button className="loginSubmit" type="submit" onClick={OtpLink}>Continue</button>
+                            {/* <button className="loginSubmit" type="submit" onClick={OtpLink}>Continue</button> */}
+                            <Button link={OtpLink}>Continue</Button>
                         </div>
                         <div className="link">
                             <a href="/">Resend OTP</a>

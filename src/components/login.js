@@ -1,3 +1,4 @@
+import Button from "./button";
 const Login = ({loginLink}) => {
     return ( 
         <div className="login-box">
@@ -11,7 +12,7 @@ const Login = ({loginLink}) => {
                                 <input type="email" id="email" placeholder="Email" required />
                             </div>
                             <div className="submit-div" style={{ display: "flex", justifyContent: "center" }}>
-                                <button className="loginSubmit" type="submit" onClick={loginLink}>Login</button>
+                                <Button link = {loginLink}>Login</Button>
                             </div>
                             <div className="link">
                                 <a href="/">I already have an account</a>

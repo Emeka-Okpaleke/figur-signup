@@ -1,3 +1,4 @@
+import Button from "./button";
 const PersonalDetails = ({ personalLink }) => {
     return ( 
         <div className="container step3">
@@ -36,10 +37,10 @@ const PersonalDetails = ({ personalLink }) => {
                         <small>By clicking sign up, you agree to our <a href="/" style={{ font: 'semibold' }}>Terms</a> and <a href="/" style={{ font: "semibold" }}>Policies</a></small>
                         <div className="link"><a href="/">Forgot Password</a></div>
                         <div className="submit-div" style={{ display: "flex", justifyContent: "center" }}>
-                            <button className="loginSubmit" type="submit">Sign up</button>
+                            <Button>Sign up</Button>
                         </div>
                         <div className="submit-div" style={{ display: "flex", justifyContent: "center" }}>
-                            <button className="loginSubmit" type="button" onClick={personalLink}>Login</button>
+                            <Button link={personalLink}>Login</Button>
                         </div>
                         <div className="link">
                             <a href="/">I already have an account</a>

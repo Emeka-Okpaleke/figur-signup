@@ -10,9 +10,6 @@ function App() {
           <BlueHalf></BlueHalf>
           <div className="inputForm">
             <Signup/>
-            {/* <Otp/>
-            <PersonalDetails/> */}
-
           </div>
           
     </div>
