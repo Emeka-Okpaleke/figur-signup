@@ -9,9 +9,10 @@ const Login = ({loginLink}) => {
                         </div>
                         <form>
                             <div className="email text-input">
-                                <label htmlFor="email"></label>
-                                {/* <input type="email" id="email" placeholder="Email" required /> */}
                                 <InputEmail/>
+                                <label style={{padding: '10px'}}>Email</label>
+                                {/* <input type="email" id="email" placeholder="Email" required /> */}
+                                
                             </div>
                             <div className="submit-div" style={{ display: "flex", justifyContent: "center" }}>
                                 <Button link = {loginLink}>Login</Button>

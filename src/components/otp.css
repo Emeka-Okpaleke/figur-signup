@@ -13,6 +13,12 @@
     background-color: white;
 }
 
+.email input span:focus{
+  transform: translate(5px, -22px);
+  font-size: smaller;
+  background-color: white;
+}
+
 
 /* ///////////////////////////////////////////////// */
 

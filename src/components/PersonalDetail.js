@@ -1,4 +1,5 @@
 import Button from "./button";
+import InputPassword from "./inputPassword";
 import InputEmail from "./inputText";
 const PersonalDetails = ({ personalLink }) => {
     return ( 
@@ -14,26 +15,26 @@ const PersonalDetails = ({ personalLink }) => {
                     </div>
                     <form>
                         <div className="email text-input">
-                            <div className="pointer">
-                                <input type="text" className="email" required />
-                                <span>First name</span>
-                            </div>
-                            <div className="pointer">
-                                <input className="text" type="email" required />
-                                <span>Last name</span>
-                            </div>
+                        <div className="email text-input">
+                            <InputEmail/>
+                            <label style={{ whiteSpace: 'nowrap' }}>First Name</label>
                         </div>
                         <div className="email text-input">
                             <InputEmail/>
-                            <span>Phone</span>
+                            <label style={{ whiteSpace: 'nowrap' }}>Last Name</label>
                         </div>
-                        <div className="email text-input">
-                            <input type="password" required />
-                            <span>Password</span>
                         </div>
                         <div className="email text-input">
                             <InputEmail/>
-                            <span>Referrer's number</span>
+                            <label>Phone</label>
+                        </div>
+                        <div className="email text-input">
+                            <InputPassword/>
+                            <label>Password</label>
+                        </div>
+                        <div className="email text-input">
+                            <InputEmail/>
+                            <label>Referrer's number</label>
                         </div>
                         <small>By clicking sign up, you agree to our <a href="/" style={{ font: 'semibold' }}>Terms</a> and <a href="/" style={{ font: "semibold" }}>Policies</a></small>
                         <div className="link"><a href="/">Forgot Password</a></div>

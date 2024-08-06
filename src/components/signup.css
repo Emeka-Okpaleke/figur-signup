@@ -21,6 +21,12 @@
 
 }
 
+.email input span:focus{
+    transform: translate(5px, -22px);
+    font-size: smaller;
+    background-color: white;
+  }
+
 .loginSubmit{
   border: none;
   border-radius: 20px;
