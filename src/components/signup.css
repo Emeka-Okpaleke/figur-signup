@@ -1,8 +1,6 @@
 .login-container{
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -12,9 +10,6 @@
     max-width: 500px;
     width: 100%; 
     display: flex;
-    /* margin-left: 208px;
-    margin-right: 4rem; */
-    /* border: 1px solid black; */
     flex-direction: column;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -54,11 +49,6 @@ form input{
     width: 90%;
     align-self: center;
 
-}
-
-form .email, .loginSubmit{
-    /* padding-right: 16px; */
-    /* padding-left: 16px; */
 }
 
 .text-input{
@@ -103,9 +93,3 @@ button{
     flex-direction: row;
 }
 
-
-
-/* .container{
-
-
-} */

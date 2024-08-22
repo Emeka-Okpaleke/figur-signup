@@ -16,21 +16,20 @@ const Signup = () => {
 
     const OtpLink = (e) => {
         e.preventDefault();
-        setAction('step3');
+        setAction('step3'); // Ensure this changes the state to step3
     };
 
     const personalLink = (e) => {
         e.preventDefault();
-        setAction('');
+        setAction(''); // Reset state back to ''
     };
 
     return ( 
         <div className="container">
             <div className="login-container">
-                {action === '' && <Login loginLink={loginLink}/>}
-
-                {action === 'step2' && <Otp OtpLink={OtpLink} />}
-                {action === 'step3' && <PersonalDetails personalLink={personalLink} />}
+                {action === '' && <Login loginLink={loginLink} />}
+                {action === 'step2' && <Otp OtpLink={OtpLink} />} 
+                {action === 'step3' && <PersonalDetails personalLink={personalLink} />} 
             </div>
         </div>
     );

@@ -50,3 +50,10 @@
     font-size: smaller;
     background-color: white;
   }
+
+
+  .relative:focus-within label {
+    transform: translate(5px, -22px);
+    font-size: smaller;
+    background-color: white;
+}

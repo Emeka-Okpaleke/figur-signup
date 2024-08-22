@@ -49,7 +49,6 @@ h2{
 
   .App{
     display: block;
-    /* grid-template-rows: 40% 60%; */
   }
 
   .login-box{
