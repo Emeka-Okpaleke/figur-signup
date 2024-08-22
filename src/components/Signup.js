@@ -16,12 +16,12 @@ const Signup = () => {
 
     const OtpLink = (e) => {
         e.preventDefault();
-        setAction('step3'); // Ensure this changes the state to step3
+        setAction('step3');
     };
 
     const personalLink = (e) => {
         e.preventDefault();
-        setAction(''); // Reset state back to ''
+        setAction('');
     };
 
     return ( 
