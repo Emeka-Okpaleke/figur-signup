@@ -42,8 +42,8 @@ import TextBox from './textBox';
 
 const Otp = ({ OtpLink }) => {
     return ( 
-        <div className="flex items-center justify-center min-h-screen bg-gray-50">
-            <div className="w-full max-w-lg p-6 bg-white shadow-md rounded-lg">
+        <div className="flex items-center justify-center min-h-screen">
+            <div className="w-full max-w-lg p-6 rounded-lg">
                 <div className="text-center mb-6">
                     <p className="text-lg font-medium text-gray-800">OTP verification</p>
                     <h2 className="text-xl font-bold text-gray-900">A verification code has been sent to</h2>

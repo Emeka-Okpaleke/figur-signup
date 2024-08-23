@@ -11,11 +11,11 @@ const PersonalDetails = ({ personalLink }) => {
                         <p>Let's start</p>
                         <h2>Tell us about you</h2>
                     </div>
-                    <div>
-                        <span>Please use your legal <b>First Name</b> and <b>Last Name</b></span>
+                    <div className="bg-gray-300 rounded-[10px] w-fit ">
+                        <span className="p-[10px]">Please use your legal <b>First Name</b> and <b>Last Name</b></span>
                     </div>
                     <form>
-                        <div className="flex">
+                        <div className="flex justify-between">
                             <TextBox color={"secondary"}>
                                 First Name
                             </TextBox>

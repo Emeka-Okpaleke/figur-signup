@@ -5,14 +5,14 @@ const Login = ({loginLink}) => {
         <div className="login-box">
                         <div className="head-container">
                             <p>Let's start</p>
-                            <h2>We'll make this fast & simple</h2>
+                            <h2 className="font-semibold">We'll make this fast & simple</h2>
                         </div>
                         <form>
                             <TextBox color={"secondary"}>
                                 Email
                             </TextBox>
                             <div className="submit-div" style={{ display: "flex", justifyContent: "center" }}>
-                            <Button onClick={loginLink} color="secondary">Login</Button>
+                            <Button onClick={loginLink} color="primary">Login</Button>
                             </div>
                             <div className="link">
                                 <a href="/">I already have an account</a>

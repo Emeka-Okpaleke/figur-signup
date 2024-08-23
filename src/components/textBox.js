@@ -12,7 +12,7 @@ const TextBox = ({children, color}) => {
 
     return ( 
     <div className="email text-input">
-        <div className="relative w-full">
+        <div className="relative w-full h-full">
             <InputEmail/>
             <label style={{color : buttonColor}} for="text" className="absolute left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 transition-all p-1 peer-focus:bg-white">{children}</label>
         </div>

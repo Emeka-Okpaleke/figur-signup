@@ -11,7 +11,7 @@ const Button = ({ children, onClick, color }) => {
   
     return (
       <button
-        className="loginSubmit"
+        className="loginSubmit w-full"
         type="button" 
         onClick={onClick}
         style={{ backgroundColor: buttonColor }}
