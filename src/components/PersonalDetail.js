@@ -9,7 +9,7 @@ const PersonalDetails = ({ personalLink }) => {
                 <div className="login-box">
                     <div className="head-container">
                         <p>Let's start</p>
-                        <h2>Tell us about you</h2>
+                        <h2 className="font-semibold">Tell us about you</h2>
                     </div>
                     <div className="bg-gray-300 rounded-[10px] w-fit ">
                         <span className="p-[10px]">Please use your legal <b>First Name</b> and <b>Last Name</b></span>
