@@ -6,7 +6,7 @@ import Otp from './components/Otp';
 import PersonalDetails from './components/PersonalDetail';
 function App() {
   return (
-    <div className="App">
+    <div className="App md:grid grid-cols-[40%_60%] h-screen">
           <BlueHalf></BlueHalf>
           <div className="inputForm">
             <Signup/>

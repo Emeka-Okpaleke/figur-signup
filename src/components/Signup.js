@@ -26,7 +26,7 @@ const Signup = () => {
 
     return ( 
         <div className="container">
-            <div className="login-container">
+            <div className="login-container bg-white flex justify-center 2xl:justify-start items-center">
                 {action === '' && <Login loginLink={loginLink} />}
                 {action === 'step2' && <Otp OtpLink={OtpLink} />} 
                 {action === 'step3' && <PersonalDetails personalLink={personalLink} />} 

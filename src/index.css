@@ -12,10 +12,10 @@ code {
     monospace;
 }
 
-.App{
+/* .App{
   display: grid;
   grid-template-columns: 40% 60%;
-}
+} */
 
 .blueSection{
   display: flex;
