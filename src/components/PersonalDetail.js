@@ -38,7 +38,7 @@ const PersonalDetails = ({ personalLink }) => {
                         </TextBox>
 
                         <small>By clicking sign up, you agree to our <a href="/" style={{ font: 'semibold' }}>Terms</a> and <a href="/" style={{ font: "semibold" }}>Policies</a></small>
-                        <div className="link"><a href="/">Forgot Password</a></div>
+
                         <div className="submit-div" style={{ display: "flex", justifyContent: "center" }}>
                             <Button>Sign up</Button>
                         </div>

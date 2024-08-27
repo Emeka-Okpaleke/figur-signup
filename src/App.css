@@ -87,6 +87,9 @@
   src: url("./fonts/Hellix-Black.woff");
 }
 
+*{
+  font-size: 15px;
+}
 
 body{
   font-family: "Hellix", sans-serif;
